@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/scrollrow.css">
+    <link rel="stylesheet" href="./estilos/card.css">
+    <link rel="stylesheet" href="./estilos/card-habilidades.css">
+    <link rel="stylesheet" href="estilos/visual-portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-press-start {
+            font-family: 'Press Start 2P', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="interface">
+            <nav class="my-6">
+                <ul class="menu-desktop">
+                    <li><a href="#" class="font-press-start">Início</a></li>
+                    <li><a href="#Habilidades" class="font-press-start">Habilidades</a></li>
+                    <li><a href="#Projetos" class="font-press-start">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <a href="#">
+                    <!-- Adicione sua imagem de logo aqui -->
+                </a>
+            </div>
+        </div>
+        <hr class="border-blue-950 border-2">
+        <div>
+            <div class="pacman">
+                <div class="pacman-top"></div>
+                <div class="pacman-bottom"></div>
+                <div class="feed"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="text-topo-site">
+                        <hr class="border-blue-950 border-2 w-screen">
+                        <h1 class="mt- text-5xl font-press-start"><span class="nome-personagem">José Vitor</span>
+                            DEV<span>.</span></h1>
+                        <p class="borda-text w-10/12 flex text-center align: inline-flex mt-24 font-press-start">Oi! Sou
+                            o José Vitor, 19 anos, apaixonado pelo front end e pela arte de estilizar sites. Amo dar
+                            vida aos projetos com cores e criatividade! Meu foco é HTML, CSS e Tailwind, sempre
+                            buscando aprender e inovar. Quero fazer parte dessa jornada de transformar a web em algo
+                            ainda mais incrível! Se precisar de um desenvolvedor animado e comprometido, tô aqui! Dá uma
+                            olhada no meu portfólio e vamos juntos criar coisas incríveis! 💻✨.</p>
+                    </div>
+                </div><!-- flex -->
+            </div><!-- interface -->
+        </section><!-- topo-do-site -->
+    </main>
+
+    <section class="alinharcards" id="Habilidades">
+        <div class="container mt-8 mb-8">
+            <div class="card">
+                <img src="img/img-html.png">
+                <p class="font-press-start">HTML organiza e estrutura conteúdos em páginas web, incluindo parágrafos, links, títulos, tabelas, imagens e vídeos.</p>
+            </div>
+            <div class="card">
+                <img src="img/img-css.png">
+                <p class="font-press-start">CSS controla a aparência visual dos elementos em páginas web, como cores, fontes, tamanhos e posicionamento.</p>
+            </div>
+            <div class="card">
+                <img src="img/img-tailwind.png">
+                <p class="font-press-start">O Tailwind é um framework de CSS que simplifica e otimiza o processo de
+                    criação de sites.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+        <section class="w-full flex justify-center pb-32" id="Projetos">
+            <div id="default-carousel" class="relative w-4/5 " data-carousel="slide">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-500 ease-in-out" data-carousel-item>
+                        <img src="img/numero-secreto.png"
+                            class="absolute block w-1/3 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-96 w-3/5" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-500 ease-in-out" data-carousel-item>
+                        <img src="img/drum.png"
+                            class="absolute block w-1/3 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-96 w-3/5" alt="...">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-500 ease-in-out" data-carousel-item>
+                        <img src="img/robot.png"
+                            class="absolute block w-1/3 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-96 w-3/5" alt="...">
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="hidden duration-500 ease-in-out" data-carousel-item>
+                        <img src="img/fokus.png"
+                            class="absolute block w-1/3 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-96 w-3/5" alt="...">
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="hidden duration-500 ease-in-out" data-carousel-item>
+                        <img src="img/vaquina-maluca.jpg"
+                            class="absolute block w-1/2 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-96 w-3/5" alt="...">
+                    </div>
+                </div>
+                <!-- Slider indicators -->
+                <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                        data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                        data-carousel-slide-to="2"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                        data-carousel-slide-to="3"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                        data-carousel-slide-to="4"></button>
+                </div>
+                <!-- Slider controls -->
+                <button type="button"
+                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 1 1 5l4 4" />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+        </section>
+
+    
+        <footer class="bg-gray-900 text-white py-4">
+            <div class="text-center">
+                <h1 class="font-press-start text-4xl">
+                    <span class="text-aqua">Jovem</span>
+                    <span class="">Tech</span>
+                </h1>
+                <p class="font-press-start text-sm">Desenvolvido por José Vitor</p>
+                <div class="flex justify-center mt-4">
+                    <a href="https://github.com/joseealmeida" target="_blank" rel="noopener noreferrer">
+                        <img src="img/github-mark-white.png" alt="Imagem 1" class="w-8 h-auto mr-2">
+                    </a>
+                    <a href="https://www.linkedin.com/in/josé-vitor-0600ab270/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/LI-In-Bug.png" alt="Imagem 2" class="w-8 h-auto ml-2">
+                    </a>
+                </div>
+            </div>
+        </footer>
+        
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>
